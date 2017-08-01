@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_option1"
+            android:icon="@drawable/nav_ic_tag"
+            android:title="Option 1" />
+        <item
+            android:id="@+id/nav_option2"
+            android:icon="@drawable/nav_ic_book"
+            android:title="Option 2" />
+        <item
+            android:id="@+id/nav_option3"
+            android:icon="@drawable/nav_ic_notification"
+            android:title="Option 3" />
+        <item
+            android:id="@+id/nav_option4"
+            android:icon="@drawable/nav_ic_image"
+            android:title="Option 4" />
+        <item
+            android:id="@+id/nav_option5"
+            android:icon="@drawable/nav_ic_offers"
+            android:title="Option 5" />
+    </group>
+
+    <item android:title="Other Options">
+        <menu>
+            <item
+                android:icon="@drawable/nav_ic_tag"
+                android:title="Option 6" />
+            <item
+                android:icon="@drawable/nav_ic_notification"
+                android:title="Option 7" />
+        </menu>
+    </item>
+
+</menu>
